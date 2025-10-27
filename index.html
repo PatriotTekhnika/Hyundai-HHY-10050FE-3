@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бензиновий генератор Hyundai HHY 3050FE</title>
+    <title>Бензиновий генератор Hyundai HHY 10050FE-3</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -306,12 +306,22 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        /* New styles for the active accordion header */
+        .accordion-item.active .accordion-header {
+            background-color: var(--primary-color);
+            color: white;
         }
         .accordion-header h3 {
             margin: 0;
             font-size: 1.2em;
             font-weight: 700;
             color: var(--dark-gray);
+            transition: color 0.3s;
+        }
+        .accordion-item.active .accordion-header h3 {
+            color: white;
         }
         .accordion-icon-general {
             font-size: 1.5em;
@@ -320,8 +330,9 @@
         }
         .accordion-item.active .accordion-icon-general {
             transform: rotate(180deg);
+            color: white;
         }
-        .accordion-content-general {
+        .accordion-content {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.4s ease-out, padding 0.4s ease-out;
@@ -353,7 +364,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        .accordion-content-general p {
+        .accordion-content p {
             line-height: 1.6;
             margin: 0 0 10px;
         }
@@ -399,7 +410,7 @@
             align-items: center;
             gap: 15px;
             padding-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
+             border-bottom: 1px solid #004d96;
         }
         .contact-item:last-child {
             border-bottom: none;
@@ -426,7 +437,7 @@
         .icon-website { background: linear-gradient(45deg, #17a2b8, #0f6674); }
         .icon-email { background: linear-gradient(45deg, #dc3545, #8b1e28); }
         .contact-text {
-            font-size: 1.1em;
+            font-size: 1em;
             color: var(--dark-gray);
             font-weight: 500;
         }
@@ -439,8 +450,8 @@
             color: var(--primary-color);
         }
         .map-container {
-            flex: 1.5;
-            min-width: 300px;
+            flex: 1;
+            min-width: 250px;
             border: 2px solid var(--primary-color);
             border-radius: 8px;
             overflow: hidden;
@@ -481,80 +492,87 @@
 
 <div class="product-card">
     <div class="product-header">
-        <h1>Бензиновий генератор Hyundai HHY 3050FE</h1>
+        <h1>Бензиновий генератор Hyundai HHY 10050FE-3</h1>
     </div>
     <div class="product-content">
         <div class="image-gallery">
-            <img id="mainProductImage" class="main-image" src="https://wizard-technics.com/image/catalog/easyphoto/68/alt_generator-benzinoviy-hyundai-hhy-3050fe-6.jpg" alt="Основне зображення бензинового генератора">
+            
+
+<img id="mainProductImage" class="main-image" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-10-1000x1000.jpg" alt="Основне зображення бензинового генератора Hyundai HHY 10050FE-3">
             <div class="thumbnail-container">
-                <img class="thumbnail active" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/generator-benzinoviy-hyundai-hhy-3050fe-9-1000x1000.jpg" alt="Вигляд збоку" onclick="changeMainImage(this)">
-                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/generator-benzinoviy-hyundai-hhy-3050fe-4-1000x1000.jpg" alt="Панель керування" onclick="changeMainImage(this)">
-                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/generator-benzinoviy-hyundai-hhy-3050fe-6-1000x1000.jpg" alt="Вигляд спереду" onclick="changeMainImage(this)">
-                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/alt_generator-benzinoviy-hyundai-hhy-3050fe-6-1000x1000.jpg" alt="Вигляд зверху" onclick="changeMainImage(this)">
-                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/generator-benzinoviy-hyundai-hhy-3050fe-5-1000x1000.jpg" alt="Повітряний фільтр" onclick="changeMainImage(this)">
-                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/68/generator-benzinoviy-hyundai-hhy-3050fe-8-1000x1000.jpg" alt="Ручний стартер" onclick="changeMainImage(this)">
+                
+
+<img class="thumbnail active" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-10-1000x1000.jpg" alt="Панель керування" onclick="changeMainImage(this)">
+                
+                
+
+<img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hhy-10050fe-3-3-1000x1000.jpg" alt="Вигляд з панеллю керування" onclick="changeMainImage(this)">
+                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-9-1000x1000.jpg" alt="Вигляд спереду" onclick="changeMainImage(this)">
+                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-8-1000x1000.jpg" alt="Вигляд зверху" onclick="changeMainImage(this)">
+                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-11-1000x1000.jpg" alt="Паливний бак" onclick="changeMainImage(this)">
+                <img class="thumbnail" src="https://wizard-technics.com/image/cache/catalog/easyphoto/195/generator-benzinoviy-hyundai-hhy-10050fe-3-12-1000x1000.jpg" alt="Елементи конструкції" onclick="changeMainImage(this)">
             </div>
         </div>
 
         <div class="product-details">
             <div class="price-container">
-                <span class="price-value">22 405,00 грн.</span>
+                <span class="price-value">53 400,00 грн.</span>
             </div>
 
+            <!-- Оновлено назву та ціну комплекту -->
             <div class="price-container secondary centered-price">
-                <span class="price-text">Транспортувальний комплект Hyundai TK-130</span>
-                <span class="price-value">2 503,00 грн.</span>
+                <span class="price-text">Транспортувальний комплект Hyundai TK-150</span>
+                <span class="price-value">2 759,00 грн.</span>
             </div>
+            <!-- Кінець оновлення -->
 
-            <p style="margin-top: 20px;">Бензиновий генератор Hyundai HHY 3050FE — це надійний та компактний пристрій, який ідеально підходить для резервного електропостачання в будинку або на дачі. Він оснащений потужним та економічним 4-тактним двигуном Hyundai, а також має електричний та ручний старт. Система захисту від перевантаження та низького рівня мастила забезпечує безпечну та довговічну експлуатацію.</p>
+            <!-- Оновлено опис -->
+            <p style="margin-top: 20px;">Бензиновий генератор Hyundai HHY 10050FE-3 — це високопотужний трифазний пристрій (380 В), призначений для забезпечення електроенергією великих об'єктів, будівельних майданчиків або повного резервування будинку. Оснащений надійним двигуном Hyundai IC 460 потужністю 17 к.с. та об'ємним паливним баком на 25 літрів, він гарантує тривалий час безперервної роботи. Модель має електростарт і може підключатися до системи автоматичного введення резерву (ATS).</p>
 
             <h2>Ключові особливості</h2>
             <ul>
-                <li><strong>Фірмовий двигун Hyundai:</strong> Надійний та економічний 4-тактний двигун з повітряним охолодженням.</li>
-                <li><strong>Електричний старт:</strong> Зручний та швидкий запуск за допомогою ключа.</li>
-                <li><strong>Тривалий час роботи:</strong> Великий паливний бак забезпечує безперервну роботу до 15 годин.</li>
-                <li><strong>Захист від перевантаження:</strong> Автоматична система відключення при перевищенні допустимого навантаження.</li>
-                <li><strong>Низький рівень шуму:</strong> Оптимізована конструкція забезпечує комфортний рівень шуму.</li>
-                <li><strong>Компактність:</strong> Легка та компактна конструкція для зручного переміщення та зберігання.</li>
+                <li><strong>Висока потужність:</strong> Номінальна 7.5 кВт, максимальна 8 кВт у трифазному режимі (380 В).</li>
+                <li><strong>Двигун IC 460:</strong> Потужний 4-тактний двигун Hyundai (17 к.с.) з посиленим моторесурсом.</li>
+                <li><strong>Великий бак 25 л:</strong> Для тривалої автономної роботи.</li>
+                <li><strong>Система 3 в 1:</strong> Підтримка ручного, електричного старту та можливість підключення АВР (ATS).</li>
+                <li><strong>Мідний альтернатор:</strong> 100% мідна обмотка для стабільної напруги та стійкості до навантажень.</li>
+                <li><strong>Система захисту:</strong> Автоматичний регулятор напруги (AVR) та захист від низького рівня мастила.</li>
             </ul>
+            <!-- Кінець оновлення -->
         </div>
     </div>
 
     <div class="product-content">
         <div class="product-details" style="flex: 1;">
-            <!-- Вкладки для характеристик і комплектації -->
-            <div class="tabs">
+            
+
+<div class="tabs">
                 <button class="tab-button active" onclick="openTab(event, 'specifications')">Технічні характеристики</button>
                 <button class="tab-button" onclick="openTab(event, 'accessories')">Комплектація</button>
             </div>
 
-            <!-- Зміст вкладок -->
-            <div id="specifications" class="tab-content" style="display: block;">
+            
+
+<div id="specifications" class="tab-content" style="display: block;">
+                <!-- ОНОВЛЕНІ ХАРАКТЕРИСТИКИ -->
                 <ul class="specifications-grid">
-                    <li><strong>Вид палива:</strong> Бензин</li>
-                    <li><strong>Потужність максимальна /номінальна, кВт/кВа:</strong> 3/2,8</li>
-                    <li><strong>Максимальний струм, А:</strong> 13</li>
-                    <li><strong>Напруга, В:</strong> 220</li>
-                    <li><strong>Тип запуску:</strong> електро</li>
-                    <li><strong>Маса, кг:</strong> 51</li>
-                    <li><strong>Розетки:</strong> 2*16А</li>
-                    <li><strong>Силова група:</strong> -</li>
-                    <li><strong>Коефіцієнт потужності, cosφ:</strong> 1</li>
-                    <li><strong>Максимальний струм виводу 12 В, А:</strong> 8,3</li>
-                    <li><strong>Вихід ATS:</strong> -</li>
-                    <li><strong>Дисплей:</strong> LED-дисплей (3 в 1)</li>
-                    <li><strong>Ємність паливного бака, л:</strong> 15</li>
-                    <li><strong>Витрата палива , г/кВт*год:</strong> ≤ 396</li>
-                    <li><strong>Модель двигуна:</strong> IC 212</li>
-                    <li><strong>Тип двигуна:</strong> 1-но циліндровий 4-тактний з повітряним охолодженням</li>
-                    <li><strong>Вихідна потужність двигуна, к.с.:</strong> 7</li>
-                    <li><strong>Об'єм двигуна, см. куб.:</strong> 212</li>
-                    <li><strong>Рівень шуму на відстані 7 м, дБ:</strong> 69</li>
-                    <li><strong>Батарея, А/год:</strong> 7</li>
+                    <li><strong>Потужність максимальна /номінальна, кВт/кВа:</strong> 8 / 7,5</li>
+                    <li><strong>Напруга, В:</strong> 380</li>
+                    <li><strong>Маса, кг:</strong> 94</li>
+                    <li><strong>Розетки:</strong> 1*16А, 1*32А / 1*32А</li>
+                    <li><strong>Коефіцієнт потужності, cosφ:</strong> 0,8</li>
+                    <li><strong>Максимальний струм виведення 12 В, А:</strong> 8,3</li>
+                    <li><strong>Дисплей:</strong> Вольтметр, лічильник мотогодин</li>
+                    <li><strong>Ємність паливного баку, л:</strong> 25</li>
+                    <li><strong>Модель двигуна:</strong> IC 460</li>
+                    <li><strong>Тип двигуна:</strong> Бензиновий, 4-х тактний</li>
+                    <li><strong>Вихідна потужність двигуна, к. с.:</strong> 17</li>
+                    <li><strong>Рівень шуму на відстані 7 м, дБ:</strong> 74</li>
                     <li><strong>Транспортувальний набір (колеса та ручки):</strong> -</li>
-                    <li><strong>Габарити (ДхШхВ), см:</strong> 64,5х52,5х52,0</li>
+                    <li><strong>Габарити (ДхШхВ), см:</strong> 77,0х56,0х61,0</li>
                     <li><strong>Гарантія:</strong> 24 місяці * * - детальні умови гарантії шукайте в гарантійному талоні</li>
                 </ul>
+                <!-- КІНЕЦЬ ОНОВЛЕННИХ ХАРАКТЕРИСТИК -->
             </div>
             <div id="accessories" class="tab-content" style="display: none;">
                 <ul class="styled-list">
@@ -574,26 +592,11 @@
         <div class="product-details" style="flex: 1;">
             <h2 class="section-title">Особливості товару</h2>
             <div>
+                <!-- ОНОВЛЕНІ ОСОБЛИВОСТІ ТОВАРУ -->
                 <div class="feature-accordion">
                     <div class="feature-item" onclick="toggleFeature(this)">
                         <div class="feature-title">
-                            <span class="number-box">01</span><span>Фірмовий двигун зі збільшеним моторесурсом</span>
-                        </div>
-                        <span class="accordion-icon">&#9660;</span>
-                    </div>
-                    <div class="feature-content">
-                        <div class="content-text">
-                            <p>Збільшені розміри впускного і випускного клапанів для швидкого заповнення та вивільнення камери згоряння, які полегшують роботу двигуна, що в свою чергу позитивно впливає на моторесурс;</p>
-                            <p>Унікальна конструкція клапанів і головки двигуна унеможливлює випадкове випадання клапана, що в свою чергу могло б стати причиною руйнування двигуна (у разі випадання клапана можуть бути пошкоджені такі запчастини як шатун, поршень, блок двигуна, головка блока та ін.);</p>
-                            <p>Укріплені та збільшені коромисла клапанів також гарантують надійну та довговічну роботу двигуна;</p>
-                            <p>Все це забезпечує подовжений моторесурс двигунів даної серії, в тому числі за рахунок зменшення його робочої температури та захищає від перегріву двигуна.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-accordion">
-                    <div class="feature-item" onclick="toggleFeature(this)">
-                        <div class="feature-title">
-                            <span class="number-box">02</span><span>Система запуску EASY START</span>
+                            <span class="number-box">01</span><span>Система запуску EASY START</span>
                         </div>
                         <span class="accordion-icon">&#9660;</span>
                     </div>
@@ -606,20 +609,20 @@
                 <div class="feature-accordion">
                     <div class="feature-item" onclick="toggleFeature(this)">
                         <div class="feature-title">
-                            <span class="number-box">03</span><span>Альтернатор</span>
+                            <span class="number-box">02</span><span>Альтернатор</span>
                         </div>
                         <span class="accordion-icon">&#9660;</span>
                     </div>
                     <div class="feature-content">
                         <div class="content-text">
-                            <p>всі генератори Hyundai комплектуються тільки синхронними альтернаторами з мідною обмоткою. Обмотка з міді не перегрівається, витримує великі навантаження порівняно з іншими матеріалами, має відмінну струмовіддачу. Виготовляються на автоматичній лінії, що унеможливлює присутність дефектів, пов'язаних з людським фактором, також застосовано покращене укладання проводів з додатковою фіксацією обмоток.</p>
+                            <p>усі генератори Hyundai комплектуються тільки синхронними альтернаторами з мідною обмоткою. Обмотка з міді не перегрівається, витримує більші навантаження у порівнянні з іншими матеріалами, володіє відмінною струмовіддачею. Виготовляються на автоматичній лінії, що унеможливлює присутність дефектів пов’язаних з людським фактором, також застосовано поліпшене укладання проводів з додатковою фіксацією обмоток.</p>
                         </div>
                     </div>
                 </div>
                 <div class="feature-accordion">
                     <div class="feature-item" onclick="toggleFeature(this)">
                         <div class="feature-title">
-                            <span class="number-box">04</span><span>AVR</span>
+                            <span class="number-box">03</span><span>AVR (автоматичний регулятор напруги)</span>
                         </div>
                         <span class="accordion-icon">&#9660;</span>
                     </div>
@@ -632,71 +635,61 @@
                 <div class="feature-accordion">
                     <div class="feature-item" onclick="toggleFeature(this)">
                         <div class="feature-title">
-                            <span class="number-box">05</span><span>Фірмова, посилена сталева рама 32 мм</span>
+                            <span class="number-box">04</span><span>Фірмова, посилена сталева рама 32 мм</span>
                         </div>
                         <span class="accordion-icon">&#9660;</span>
                     </div>
                     <div class="feature-content">
                         <div class="content-text">
-                            <p>генератори 50-серії надійно захищені міцною металевою рамою з порошковим фарбуванням, яка захищає від зовнішніх впливів і також унеможливлює вплив вібрації на всі компоненти генератора, в тому числі при максимальному навантаженні. Зменшення вібраційного навантаження гарантується також за рахунок всієї антивібраційної системи, в тому числі за рахунок подвійних амортизаційних подушок.</p>
+                            <p>генератори 50-серії надійно захищені міцною металевою рамою з порошковим фарбуванням яка захищає від зовнішніх дій та також унеможливлює вплив вібрації на усі компоненти генератора, у тому числі при максимальному навантаженні. Зменшення вібраційного навантаження гарантується також за рахунок всієї антивібраційної системи, у тому числі за рахунок подвійних амортизаційних подушок.</p>
                         </div>
                     </div>
                 </div>
                 <div class="feature-accordion">
                     <div class="feature-item" onclick="toggleFeature(this)">
                         <div class="feature-title">
-                            <span class="number-box">06</span><span>Місткий, сталевий бензобак</span>
+                            <span class="number-box">05</span><span>Місткий, сталевий бензобак</span>
                         </div>
                         <span class="accordion-icon">&#9660;</span>
                     </div>
                     <div class="feature-content">
                         <div class="content-text">
-                            <p>резервуар для бензину виготовлений з високоміцного металу. Він вміщає 15 літрів пального, а цього достатньо для 20 годин генерування електричної енергії при середньому навантаженні.</p>
+                            <p>резервуар для бензину виготовлений з високоміцного металу. Він вміщує 25 літрів пального, а цього досить для 14 годин генерування електричної енергії при середньому навантаженні.</p>
                         </div>
                     </div>
                 </div>
-                <div class="feature-accordion">
-                    <div class="feature-item" onclick="toggleFeature(this)">
-                        <div class="feature-title">
-                            <span class="number-box">07</span><span>Економна витрата палива</span>
-                        </div>
-                        <span class="accordion-icon">&#9660;</span>
-                    </div>
-                    <div class="feature-content">
-                        <div class="content-text">
-                            <p>використання інноваційних технологій знизило споживання палива. За годину активності йому потрібно менше 1 л бензину. При цьому не втрачається потужність, а якість роботи зосереджена на збільшенні енергоресурсу.</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- КІНЕЦЬ ОНОВЛЕННЯ -->
             </div>
         </div>
     </div>
 
     <div class="product-content">
         <div class="product-details" style="flex: 1;">
-            <div class="accordion-item" onclick="toggleAccordion(this)">
-                <div class="accordion-header">
+            <h2 class="section-title">Оплата, доставка та контакти</h2>
+
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
                     <h3>Оплата</h3>
                     <span class="accordion-icon-general">&#9660;</span>
                 </div>
-                <div class="accordion-content-general">
+                <div class="accordion-content">
                     <div class="accordion-content-inner">
-                        <p>Оплатити замовлення можна наступними способами:</p>
+                        <p>Оплатити замовлення можна такими способами:</p>
                         <ul class="styled-list">
                             <li>Готівкою при отриманні</li>
                             <li>Безготівковий розрахунок (для юридичних та фізичних осіб)</li>
-                            <li>Онлайн-оплата карткою Visa / Mastercard</li>
+                            <li>Онлайн-оплата картою Visa / Mastercard</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="accordion-item" onclick="toggleAccordion(this)">
-                <div class="accordion-header">
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
                     <h3>Доставка</h3>
                     <span class="accordion-icon-general">&#9660;</span>
                 </div>
-                <div class="accordion-content-general">
+                <div class="accordion-content">
                     <div class="accordion-content-inner">
                         <p>Ми здійснюємо доставку по всій Україні через транспортні компанії, такі як Нова Пошта.</p>
                         <ul class="styled-list">
@@ -707,13 +700,13 @@
                     </div>
                 </div>
             </div>
-
-            <div class="accordion-item" onclick="toggleAccordion(this)">
-                <div class="accordion-header">
+            
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
                     <h3>Контакти</h3>
                     <span class="accordion-icon-general">&#9660;</span>
                 </div>
-                <div class="accordion-content-general">
+                <div class="accordion-content">
                     <div class="accordion-content-inner">
                         <div class="contacts-grid">
                             <div class="contact-info">
@@ -745,7 +738,7 @@
                                     <div class="contact-icon icon-website">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
                                     </div>
-                                    <span class="contact-text"><a href="https://example.com" target="_blank">patriottekhnika.com.ua</a></span>
+                                    <span class="contact-text"><a href="https://patriottekhnika.com.ua" target="_blank">patriottekhnika.com.ua</a></span>
                                 </div>
                             </div>
                             <div class="map-container">
@@ -760,59 +753,74 @@
 </div>
 
 <script>
-    // --- Галерея зображень ---
+    // --- Image Gallery ---
     function changeMainImage(thumbnailElement) {
         const mainImage = document.getElementById('mainProductImage');
         mainImage.src = thumbnailElement.src;
 
-        // Управління активним станом для мініатюр
+        // Manage active state for thumbnails
         const thumbnails = document.querySelectorAll('.thumbnail');
         thumbnails.forEach(thumb => thumb.classList.remove('active'));
         thumbnailElement.classList.add('active');
     }
 
-    // --- Вкладки ---
+    // --- Tabs ---
     function openTab(event, tabName) {
-        // Приховати весь вміст вкладок
+        // Hide all tab content
         const tabContents = document.querySelectorAll('.tab-content');
         tabContents.forEach(content => content.style.display = 'none');
 
-        // Деактивувати всі кнопки вкладок
+        // Deactivate all tab buttons
         const tabButtons = document.querySelectorAll('.tab-button');
         tabButtons.forEach(button => button.classList.remove('active'));
 
-        // Показати вміст обраної вкладки та активувати кнопку
+        // Show the selected tab content and activate the button
         document.getElementById(tabName).style.display = 'block';
         event.currentTarget.classList.add('active');
     }
 
-    // --- Розділ з особливостями (новий функціонал) ---
+    // --- Accordion for Features ---
     function toggleFeature(element) {
-        // Find the parent .feature-accordion and its content
-        const parentAccordion = element.closest('.feature-accordion');
-        const content = parentAccordion.querySelector('.feature-content');
-        
-        // Check if this accordion is currently active
-        const isActive = parentAccordion.classList.contains('active');
+        const featureItem = element;
+        const featureContent = featureItem.nextElementSibling;
 
-        // Close all other open feature accordions
-        document.querySelectorAll('.feature-accordion').forEach(item => {
-            if (item !== parentAccordion) {
-                item.classList.remove('active');
-                const otherContent = item.querySelector('.feature-content');
-                if (otherContent) {
-                    otherContent.style.maxHeight = '0';
-                    otherContent.style.padding = '0 20px';
-                }
+        if (featureContent && featureContent.classList.contains('feature-content')) {
+            const isActive = featureItem.classList.toggle('active');
+
+            if (isActive) {
+                // Close all other accordions in the same container
+                const allFeatureItems = document.querySelectorAll('.feature-accordion .feature-item');
+                allFeatureItems.forEach(item => {
+                    if (item !== featureItem && item.classList.contains('active')) {
+                        item.classList.remove('active');
+                        item.nextElementSibling.style.maxHeight = '0';
+                        item.nextElementSibling.style.padding = '0 20px';
+                    }
+                });
+
+                // Open the selected accordion
+                featureContent.style.maxHeight = featureContent.scrollHeight + 'px';
+                featureContent.style.padding = '20px';
+            } else {
+                featureContent.style.maxHeight = '0';
+                featureContent.style.padding = '0 20px';
             }
-        });
+        }
+    }
 
-        // Toggle the active state for the clicked accordion
-        parentAccordion.classList.toggle('active', !isActive);
-        element.classList.toggle('active', !isActive);
+    // --- Generic Accordion (for Contacts, etc.) ---
+    function toggleAccordion(element) {
+        // Find the parent .accordion-item
+        const accordionItem = element.closest('.accordion-item');
+        if (!accordionItem) return;
 
-        // Set maxHeight and padding for the content to create the expand/collapse effect
-        if (!isActive) {
+        // Find the sibling .accordion-content
+        const content = accordionItem.querySelector('.accordion-content');
+        if (!content) return;
+
+        const isActive = accordionItem.classList.toggle('active');
+
+        if (isActive) {
             content.style.maxHeight = content.scrollHeight + 'px';
             content.style.padding = '20px';
         } else {
@@ -820,47 +828,13 @@
             content.style.padding = '0 20px';
         }
     }
-
-
-    // --- Акордеон (загальний) ---
-    function toggleAccordion(element) {
-        const content = element.querySelector('.accordion-content-general');
-        const isActive = element.classList.toggle('active');
-
-        if (isActive) {
-            content.style.maxHeight = content.scrollHeight + 'px';
-            content.style.padding = '0 20px';
-             setTimeout(() => {
-                const inner = content.querySelector('.accordion-content-inner');
-                if(inner) inner.style.padding = '20px 0';
-            }, 200);
-
-        } else {
-            const inner = content.querySelector('.accordion-content-inner');
-            if(inner) inner.style.padding = '0';
-            content.style.maxHeight = '0';
-            content.style.padding = '0 20px';
-        }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        // Initialize general accordions
-        const activeAccordions = document.querySelectorAll('.accordion-item.active');
-        activeAccordions.forEach(accordion => {
-            const content = accordion.querySelector('.accordion-content-general');
-            if (content) {
-                content.style.maxHeight = content.scrollHeight + 'px';
-                content.style.padding = '0 20px';
-                const inner = content.querySelector('.accordion-content-inner');
-                if(inner) inner.style.padding = '20px 0';
-            }
-        });
-
-        // Initialize features section. Make sure all are closed by default.
-        document.querySelectorAll('.feature-content').forEach(content => {
-            content.style.maxHeight = '0';
-        });
-    });
+    
+    // Set initial active state for the first tab and accordion
+    window.onload = function() {
+        document.querySelector('.tab-button').click(); // Activate first tab
+        // Optionally activate the first feature for better presentation
+        // document.querySelector('.feature-accordion .feature-item').click();
+    };
 
 </script>
 
